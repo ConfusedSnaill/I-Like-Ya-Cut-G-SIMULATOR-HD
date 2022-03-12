@@ -34,7 +34,7 @@ public class ClickableG : MonoBehaviour
         //Resets the animation that plays when you unlock a reward
         animator.Play("Gone");
 
-        //Sets the variables after being converted back from binary 
+        //Sets the variables after back after being converted back from binary 
         //(I think... this saving and loading shit is confusing af)
         MileStones.reward1 = data.reward1;
         MileStones.reward2 = data.reward2;
