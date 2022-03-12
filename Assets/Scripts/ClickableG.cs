@@ -42,6 +42,12 @@ public class ClickableG : MonoBehaviour
         MileStones.reward4 = data.reward4;
         MileStones.reward5 = data.reward5;
 
+        BruhCheckBox.bruhtick = data.bruhtick;
+        x2CheckBox.x2tick = data.x2tick;
+        Click.x2Click = data.x2Click;
+        ArcadeCheckBox.arcadetick = data.arcadetick;
+        ParticleCheckbox.particletick = data.particletick;
+
         MileStones.playonce1 = data.playonce1;
         MileStones.playonce2 = data.playonce2;
         MileStones.playonce3 = data.playonce3;
