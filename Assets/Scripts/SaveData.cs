@@ -8,7 +8,7 @@ public class SaveData
    //The score from the "Clickable G" script
    public int ScoreCount;
 
-   //The reward bools from the "MileStones" script
+   //The reward bools from the "Milestones" script
    public bool reward1, reward2, reward3, reward4, reward5;
    public bool playonce1, playonce2, playonce3, playonce4, playonce5;
 

@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class tap : MonoBehaviour
+public class Tap : MonoBehaviour
 {
    //Bounce animation for the button
    
