@@ -1,0 +1,1 @@
+I had pong set up so that you could choose your Max amount of points to win and a win screen for each player but it kept giving me a problem with the winscreens not working properly so I decided I'd scrap it until the next update.

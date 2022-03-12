@@ -1,0 +1,102 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4660921492623328396
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4660921492623328398}
+  - component: {fileID: 476049798}
+  - component: {fileID: 4660921492623328399}
+  - component: {fileID: 4660921492623328393}
+  - component: {fileID: 476049799}
+  m_Layer: 0
+  m_Name: Mechanics
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4660921492623328398
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4660921492623328396}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 960, y: 540, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &476049798
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4660921492623328396}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73fecd07c28ab3b4096980e18938da6c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dev: 0
+  devcontrols: {fileID: 0}
+--- !u!114 &4660921492623328399
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4660921492623328396}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 942466e3a7bc5c84d8dd8e577814de35, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animator: {fileID: 0}
+  ScoreDisplay: {fileID: 0}
+  InternalScore: 0
+--- !u!114 &4660921492623328393
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4660921492623328396}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e73040b678056ff4f92c4bcb188cebc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  x2ScoreDisplay: {fileID: 0}
+  BruhButtonDisplay: {fileID: 0}
+  ArcadeButtonDisplay: {fileID: 0}
+  ParticleDisplay: {fileID: 0}
+--- !u!114 &476049799
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4660921492623328396}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a04ab16b66bcf264c82a40fed8fbf7a1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Tickbox1: {fileID: 0}
+  Tickbox2: {fileID: 0}
+  Tickbox3: {fileID: 0}
+  Tickbox4: {fileID: 0}
+  Star1: {fileID: 0}
+  audiosrc: {fileID: 0}
+  rewardGet: {fileID: 0}
+  starsound: {fileID: 0}
+  animator: {fileID: 0}
